@@ -28,15 +28,27 @@ movieApp.controller('ActorCtrl', function($scope, $http) {
 });
 
 movieApp.controller('TopTenCtrl', function($scope, $http) {
+
+    function Movie(mObject) {
+    this.nameMovie = mObject.nameMovie;
+    this.time = mObject.time;
+    this.director = mObject.director;
+    this.stars = mObject.stars;
+    
+     }
   
   $http.get("dataMovies.json").then(function(response){
-    $scope.movies = response.data;
+    $scope.movies = [];
+    for (var i = 0; i < response.data.length; i++) {
+      $scope.actors.push(new Movie(response.data[i]));
+    }
   });
 
   
-}).directive("movie", function() {
+}).directive("myMovie", function() {
   return {
     templateUrl: "movie.html"
   };
 });
+
 

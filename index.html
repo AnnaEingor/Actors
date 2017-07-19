@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="movieApp">
 
 <head>
   <link rel="stylesheet" href="style.css">
@@ -8,8 +8,8 @@
   <script src="app.js"></script>
 </head>
 
-<body ng-app="movieApp">
-  <article ng-controller="ActorCtrl">
+<body>
+  <div ng-controller="ActorCtrl">
     <h1>Actors</h1>
     <form>
       <input type="text" name="search" id="search" placeholder="Filter" ng-model="filterActor" /> Sort By:
@@ -21,22 +21,22 @@
     </form>
 
     <div class="actor-item" ng-repeat="actor in actors | filter:filterActor | orderBy:orderProp">
-      <img ng-class="{'img-selected': actor.isSelected}" class="galleryImg" ng-src={{actor.image}} ng-click="imgClick(actor)" alt="" />
+      <img ng-class="{'img-selected': actor.isSelected}" class="galleryImg" ng-src={{actor.photo}} ng-click="imgClick(actor)" alt="" />
       <p>{{actor.fullName()}}</p>
     </div>
-  </article>
+  </div>
   
   
-  <article ng-controller="TopTenCtrl">
+  <div ng-controller="TopTenCtrl">
     <hr>
     <h1>Top 10 Movies</h1>
-    <input type="text" name="search" id="search" placeholder="Filter" ng-model="filterMovie.name" /> Sort By:
+    <input type="text" name="search" id="search" placeholder="Filter" ng-model="filterMovie.nameMovie" /> Sort By:
     <select ng-model="orderProp">
       <option value="">None</option>
-      <option value="length">Length</option>
+      <option value="time">Time</option>
     </select>
-    <movie ng-repeat="movie in movies | filter:filterMovie | orderBy:orderProp"></movie>
-  </article>
+    <my-movie ng-repeat="movie in movies | filter:filterMovie | orderBy:orderProp"></my-movie>
+  </div>
   
 
 </body>
