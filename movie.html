@@ -1,0 +1,5 @@
+<div>
+  <h3>{{movie.name}} <span class="length">({{movie.length}} min)</span></h3>
+  <strong>Director:</strong> {{movie.director}} <br>
+  <strong>Stars:</strong> <span ng-repeat="actor in movie.actors">{{actor}}<span ng-hide="$last">, </span></span>
+</div>

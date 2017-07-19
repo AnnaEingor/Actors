@@ -1,0 +1,71 @@
+[{
+  "nameMovie": "Dunkirk",
+  "time": "106",
+  "stars": "Fionn Whitehead, Damien Bonnard, Aneurin Barnard",
+  "director": "Christopher Nolan",
+  "url": "http://www.imdb.com/title/tt5013056/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=2240084082&pf_rd_r=1GJGXFX4X4AB2JACNJYT&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=moviemeter&ref_=chtmvm_tt_4"
+}, 
+{
+  "nameMovie": "The Dark Knight",
+  "time": "152",
+  "stars": " Christian Bale, Heath Ledger, Aaron Eckhart",
+  "director": " Christopher Nolan",
+  "url": "http://www.imdb.com/title/tt0468569/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=2240084082&pf_rd_r=1GJGXFX4X4AB2JACNJYT&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=moviemeter&ref_=chtmvm_tt_89"
+}, 
+{
+  "nameMovie": "Interstellar",
+  "time": "169",
+  "stars": "Matthew McConaughey, Anne Hathaway, Jessica Chastain",
+  "director": " Christopher Nolan",
+  "url": "http://www.imdb.com/title/tt0816692/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=2240084082&pf_rd_r=1GJGXFX4X4AB2JACNJYT&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=moviemeter&ref_=chtmvm_tt_81"
+}, 
+{
+  "nameMovie":"Baby Driver",
+  "time":"172",
+  "stars": " Ansel Elgort, Jon Bernthal, Jon Hamm",
+  "director": "Edgar Wright",
+  "url": "http://www.imdb.com/title/tt3890160/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=2240084082&pf_rd_r=1GJGXFX4X4AB2JACNJYT&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=moviemeter&ref_=chtmvm_tt_3"
+}, 
+{
+  "nameMovie": "The Big Sick",
+  "time": "109",
+  "stars": "Kumail Nanjiani, Zoe Kazan, Holly Hunter",
+  "director": "Michael Showalter",
+  "url": "http://www.imdb.com/title/tt5462602/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=2240084082&pf_rd_r=1GJGXFX4X4AB2JACNJYT&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=moviemeter&ref_=chtmvm_tt_9"
+}, 
+{
+  "nameMovie": "Logan: Wolverine",
+  "time": "154",
+  "stars": "Hugh Jackman, Patrick Stewart, Dafne Keen",
+  "director": "James Mangold",
+  "url": "http://www.imdb.com/title/tt3315342/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=2240084082&pf_rd_r=1GJGXFX4X4AB2JACNJYT&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=moviemeter&ref_=chtmvm_tt_20"
+}, 
+{
+  "nameMovie": "Hacksaw Ridge",
+  "time": "139",
+  "stars": "Andrew Garfield, Sam Worthington, Luke Bracey",
+  "director": "Mel Gibson",
+  "url": "http://www.imdb.com/title/tt2119532/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=2240084082&pf_rd_r=1GJGXFX4X4AB2JACNJYT&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=moviemeter&ref_=chtmvm_tt_69"
+}, 
+{
+  "nameMovie": "La La Land",
+  "time": "128",
+  "stars": "Ryan Gosling, Emma Stone, Rosemarie DeWitt",
+  "director": "Damien Chazelle",
+  "url": "http://www.imdb.com/title/tt3783958/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=2240084082&pf_rd_r=1GJGXFX4X4AB2JACNJYT&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=moviemeter&ref_=chtmvm_tt_97"
+}, 
+{
+  "nameMovie": "War for the Planet of the Apes",
+  "time": "140",
+  "stars": "Andy Serkis, Woody Harrelson, Steve Zahn",
+  "director": "Matt Reeves",
+  "url":"http://www.imdb.com/title/tt3450958/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=2240084082&pf_rd_r=1GJGXFX4X4AB2JACNJYT&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=moviemeter&ref_=chtmvm_tt_2"
+}, 
+{
+  "nameMovie": "Guardians of the Galaxy",
+  "time": "136",
+  "stars": "Chris Pratt, Zoe Saldana, Dave Bautista",
+  "director": "James Gunn",
+  "url": "http://www.imdb.com/title/tt3896198/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=2240084082&pf_rd_r=1GJGXFX4X4AB2JACNJYT&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=moviemeter&ref_=chtmvm_tt_30"
+  
+}]
